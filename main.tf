@@ -111,6 +111,13 @@ resource "ibm_is_instance" "jump_server" {
   keys = [ibm_is_ssh_key.ssh_key.id]
 }
 
+resource "ibm_tg_gateway" "new_tg_gw"{
+name="transit-gateway-1"
+location="us-south"
+global=true
+resource_group= ibm_resource_group.resourceGroupA.id
+}  
+
 # Output the Floating IP Address
 output "floating_ip" {
   value = ibm_is_floating_ip.floating_ip.address
