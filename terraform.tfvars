@@ -1,2 +1,1 @@
-ibmcloud_api_key = "qbHgMvnFm_XsuOoZdzQCEkUqpVvclzrKpjK5o4MR1hpo"
-#ibmcloud_api_key = "xCFfQtL_IRJYUNC0OuzjbfQjXUEKWhLQm8kfNlBEiCzN"
+ibmcloud_api_key = ""
